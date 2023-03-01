@@ -1,3 +1,5 @@
+
+
 .software-dev {
     color: #36b37e;
 }
@@ -5,6 +7,17 @@
 @media (min-width: 992px) {
     .max-width {
         max-width: 580px;
+    }
+
+    .header-headline-container {
+        background-image: url(images/header-desktop.png);
+        background-size: cover;
+        height: 100vh;
+        position: absolute;
+        right: 0;
+        left: 0;
+        top: 0;
+        border: 1px solid red;
     }
 
     .headline {
