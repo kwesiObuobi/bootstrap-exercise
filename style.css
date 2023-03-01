@@ -32,4 +32,22 @@
         margin-top: 50px;
     }
 
+    #about-me {
+        margin-top: 150px;
+    }
+
+    .about-me-inner {
+        position: relative;
+    }
+    
+    .about-img {
+        position: absolute;
+        left: -150px;
+    }
+
+    .about-me-right {
+        position: absolute;
+        right: -135px;
+        top: -120px;
+    }
 }
