@@ -1,0 +1,13 @@
+.software-dev {
+    color: #36b37e;
+}
+
+@media (min-width: 992px) {
+    .max-width {
+        max-width: 580px;
+    }
+
+    .headline {
+        margin-top: 80px;
+    }
+}
