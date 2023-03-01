@@ -1,4 +1,6 @@
-
+body {
+    overflow-x: hidden;
+}
 
 .software-dev {
     color: #36b37e;
@@ -51,11 +53,44 @@
         top: -120px;
     }
 
+    #contact {
+        position: relative;
+    }
+
     #contact p {
         max-width: 380px;
     }
 
     .contact {
         margin-top: 120px;
+    }
+
+    .line {
+        margin-top: 200px;
+        margin-left: -120px;
+        margin-right: -120px;
+    }
+
+    .contact-left,
+    .contact-center,
+    .contact-right {
+        position: absolute;
+    }
+
+    .contact-left {
+        left: -120px;
+        top: 90px;
+    }
+
+    .contact-right {
+        right: -120px;
+        top: -65px;
+    }
+
+    .contact-center {
+        height: 100px;
+        width: 100px;
+        left: 150px;
+        bottom: -140px;
     }
 }
