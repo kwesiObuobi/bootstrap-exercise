@@ -2,12 +2,26 @@ body {
     overflow-x: hidden;
 }
 
+.headline {
+    margin-top: 70px;
+}
+
+.headline-name {
+    font-size: 40px;
+}
+
 .software-dev {
     color: #36b37e;
 }
 
 .badge {
     background-color: #ebf0ee;
+}
+
+@media (min-width: 567px) {
+    .headline {
+        margin-top: 0;
+    }
 }
 
 @media (min-width: 992px) {
