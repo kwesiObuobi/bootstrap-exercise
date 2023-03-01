@@ -16,11 +16,8 @@
     .header-headline-container {
         background-image: url(images/header-desktop.png);
         background-size: cover;
+        background-position: top;
         height: 100vh;
-        position: absolute;
-        right: 0;
-        left: 0;
-        top: 0;
     }
 
     .headline {
@@ -29,6 +26,10 @@
 
     .img-container {
         height: 300px;
+    }
+
+    .portfolio {
+        margin-top: 50px;
     }
 
 }
