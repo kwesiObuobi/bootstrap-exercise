@@ -33,7 +33,7 @@
         </nav>
         <section class="headline container">
           <h2 class="text-center fw-bold headline-name">Hey there. I'm Alex. <span class="d-block text-center software-dev">I'm a software developer</span></h2>
-          <p class="text-center max-width mx-auto lh-2 mt-3"> I can help you build a product , feature or website Look through some of my work and experience! If you like what you see and have a project you need coded, 
+          <p class="text-center max-width mx-auto lh-2 mt-3 supporting-text"> I can help you build a product , feature or website Look through some of my work and experience! If you like what you see and have a project you need coded, 
               don’t hestiate to contact me.</p>
           <ul class="list-unstyled d-flex gap-2 justify-content-center mt-4 social">
               <li>
@@ -184,19 +184,19 @@
                     <img src="images/about-me-left-bottom.png" alt="background" class="about-me-left">
                 </div>
                 <img src="images/about-me-top-right.png" alt="background" class="about-me-right">
-                <p class="text-center w-75 mx-auto mb-3"> I can help you build a product , feature or website Look through some of my work and experience! If you like what you see and have a project you need coded, 
+                <p class="text-center mx-auto mb-3 about-me-p"> I can help you build a product , feature or website Look through some of my work and experience! If you like what you see and have a project you need coded, 
                     don’t hestiate to contact me.</p>
                 <button class="btn btn-success d-block mx-auto">Get My Resume</button>
             </div>
 
-            <div class="row mt-5">
+            <div class="row mt-5 gap-3 gap-sm-0">
                 <div class="col-md-4">
                     <div class="card">
                         <img src="images/Img Plaholder.png" alt="" class="card-img about-me-card">
                         <div class="card-body card-img-overlay d-flex flex-column align-items-center">
                             <img src="images/languages.png" alt="languages icon" class="mb-2">
                             <h4 class="card-title mb-3">Languages</h4>
-                            <div>
+                            <div class="d-flex flex-wrap justify-content-center">
                                 <span class="badge text-success bg-light p-2">Javascript</span>
                                 <span class="badge text-success bg-light p-2">Ruby</span>
                                 <span class="badge text-success bg-light p-2">html</span>
@@ -211,13 +211,13 @@
                         <div class="card-body card-img-overlay d-flex flex-column align-items-center">
                             <img src="images/frameworks.png" alt="languages icon" class="mb-2">
                             <h4 class="card-title mb-3">Frameworks</h4>
-                            <div class="mb-1">
+                            <div class="mb-1 d-flex">
                                 <span class="badge text-success bg-light p-2">Bootstrap</span>
                                 <span class="badge text-success bg-light p-2">Ruby on rails</span>
                                 <span class="badge text-success bg-light p-2">RSpec</span>
                             </div>
-                            <div>
-                                <span class="badge text-success bg-light p-2">Capybara</span>
+                            <div class="d-flex flex-wrap">
+                                <span class="badge text-success flex-wrap bg-light p-2">Capybara</span>
                                 <span class="badge text-success bg-light p-2">Selenium</span>
                             </div>
                         </div>
@@ -229,13 +229,11 @@
                         <div class="card-body card-img-overlay d-flex flex-column align-items-center">
                             <img src="images/skills.png" alt="languages icon" class="mb-2">
                             <h4 class="card-title mb-3">Skills</h4>
-                            <div class="mb-1">
+                            <div class="mb-1 d-flex flex-wrap justify-content-center">
                                 <span class="badge text-success bg-light p-2">CodeKit</span>
                                 <span class="badge text-success bg-light p-2">Github</span>
                                 <span class="badge text-success bg-light p-2">codepen</span>
                                 <span class="badge text-success bg-light p-2">Gitlab</span>
-                            </div>
-                            <div>
                                 <span class="badge text-success bg-light p-2">Terminal</span>
                             </div>
                         </div>
@@ -244,8 +242,8 @@
             </div>
         </section>
 
-        <section id="contact" class="d-flex justify-content-center align-items-center contact">
-          <p class="text-center fw-bold fs-4">I'm always interested in hearing about new projects, so if you'd like to chat please get in touch.</p>
+        <section id="contact" class="d-flex flex-column flex-lg-row justify-content-center align-items-center contact">
+          <p class="text-center fw-bold contact-p">I'm always interested in hearing about new projects, so if you'd like to chat please get in touch.</p>
           <form class="w-100">
             <input
               id="name"
@@ -269,15 +267,16 @@
               rows="3"
               placeholder="Enter your text here.."
             ></textarea>
-            <button class="btn btn-success mt-4">Get in touch</button>
+            <button class="btn btn-success mt-4 d-block mx-auto ms-lg-0 p-3">Get in touch</button>
           </form>
-          <img src="images/contact-left (1).png" class="contact-left">
-          <img src="images/contact-center.png" class="contact-center">
-          <img src="images/contact-left (2).png" class="contact-right">
+          <img src="images/contact-left (1).png" class="contact-left d-none d-lg-block">
+          <img src="images/contact-center.png" class="contact-center d-none d-lg-block">
+          <img src="images/contact-left (2).png" class="contact-right d-none d-lg-block">
+          <img src="images/contact-mobile.png" alt="contact mobile" class="d-lg-none contact-mobile">
         </section>
 
-        <section id="footer">
-          <hr class="line">
+        <section id="footer" class="d-flex flex-column align-items-center justify-content-center">
+          <hr class="line d-none d-lg-block">
           <ul class="list-unstyled d-flex gap-2 justify-content-center mt-4">
             <li>
                 <a href="https://github.com/kwesiObuobi">
@@ -305,6 +304,7 @@
                 </a>
             </li>
         </ul>
+        <p class="d-block mx-auto fs-4 d-lg-none">myemailhere@email.com</p>
         </section>
     </div>
 
