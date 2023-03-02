@@ -97,14 +97,15 @@ MEDIA QUERIES
 MEDIA QUERIES
 MEDIA QUERIES
 */
-
-.custom-dialog-width {
-    min-width: 800px;
-}
-
 .text2 {
     max-width: 450px;
+    font-size: 32px;
 }
+
+.custom-dialog-width {
+    min-width: 90%;
+}
+
 
 @media (min-width: 567px) {
     .headline {
@@ -212,4 +213,9 @@ MEDIA QUERIES
         left: 150px;
         bottom: -140px;
     }
+
+    .custom-dialog-width {
+        min-width: 800px;
+    }
+    
 }
