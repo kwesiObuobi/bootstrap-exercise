@@ -26,6 +26,65 @@ RECENT WORKS
     font-size: 40px;
 }
 
+/*
+ABOUT ME
+*/
+
+#about-me {
+    margin-top: 68px;
+}
+
+.about-me-inner {
+    position: relative;
+}
+
+.about-me-h2 {
+    font-size: 40px;
+    font-weight: bolder;
+}
+
+/* @media (min-width: 376px) {
+    .about-img,
+    .about-me-left {
+    position: absolute;
+    width: 60px;
+    height: 60px;
+    bottom: 0;
+    left: -12px;
+    }
+
+    .about-me-right {
+    position: absolute;
+    width: 60px;
+    height: 60px;
+    top: -20px;
+    right: -40px;
+    }
+} */
+
+/* .about-img,
+.about-me-left {
+    position: absolute;
+    width: 60px;
+    height: 60px;
+    bottom: 0;
+    left: -12px;
+}
+
+.about-me-right {
+    position: absolute;
+    width: 60px;
+    height: 60px;
+    top: -20px;
+    right: -40px;
+} */
+
+/*
+MEDIA QUERIES
+MEDIA QUERIES
+MEDIA QUERIES
+*/
+
 @media (min-width: 567px) {
     .headline {
         margin-top: 0;
@@ -71,12 +130,16 @@ RECENT WORKS
     .about-img {
         position: absolute;
         left: -150px;
+        width: 200;
+        height: 200px;
     }
 
     .about-me-right {
         position: absolute;
         right: -135px;
         top: -120px;
+        width: 200;
+        height: 200px;
     }
 
     #contact {
