@@ -131,6 +131,7 @@ MEDIA QUERIES
 
     .headline {
         margin-top: 80px;
+        background-image: none;
     }
 
     .img-container, .about-me-card {
