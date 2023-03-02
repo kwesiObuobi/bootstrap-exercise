@@ -98,6 +98,14 @@ MEDIA QUERIES
 MEDIA QUERIES
 */
 
+.custom-dialog-width {
+    min-width: 800px;
+}
+
+.text2 {
+    max-width: 450px;
+}
+
 @media (min-width: 567px) {
     .headline {
         margin-top: 0;

@@ -73,6 +73,38 @@
           <img src="images/Indicator.png" alt="indicator" class="d-block mx-auto mb-5 d-sm-none">
           <div class="row gap-4 gap-sm-0">
             <div class="col-md-4">
+              <div class="modal fade" id="portfolio1">
+                <div class="modal-dialog modal-dialog-scrollable custom-dialog-width">
+                  <div class="modal-content">
+                    <div class="modal-title">
+                      <button type="button" class="close d-block ms-auto" data-bs-dismiss="modal" aria-label="Close">
+                        <img src="images/Disabled.png" alt="close" class="border-0">
+                      </button>
+                    </div>
+                    <div class="modal-body">
+                      <img class="img-fluid" src="images/Snapshoot Portfolio.png">
+                      <div class="d-flex flex-column gap-3">
+                        <div class="d-flex justify-content-between mt-4">
+                          <h2 class="text2">Keeping Track of hundreds of components</h2>
+                          <div class="d-flex align-items-start">
+                            <button class="btn btn-success me-2">See Live<img src="images/see source badge.png"></button>
+                            <button class="btn btn-success">See Source<img src="images/github-badge.png"></button>
+                          </div>
+                        </div>
+                        <div>
+                          <span class="badge text-dark p-2">Codekit</span>
+                          <span class="badge text-dark">Github</span>
+                          <span class="badge text-dark">Javascript</span>
+                          <span class="badge text-dark">Bootstrap</span>
+                          <span class="badge text-dark">Terminal</span>
+                          <span class="badge text-dark">Codepen</span>
+                        </div>
+                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the relea</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
               <div class="card mb-sm-4">
                 <div class="img-container">
                   <img class="card-img-top img-fluid snapshot h-100 w-100" src="images/Img Plaholder.png" alt="snapshot of project">
@@ -85,7 +117,7 @@
                     <span class="badge text-dark fw-semibold p-2">Javascript</span>
                     <span class="badge text-dark fw-semibold p-2">html</span>
                   </div>
-                  <button class="btn btn-success d-block mx-auto mt-4">See project</button>
+                  <button class="btn btn-success d-block mx-auto mt-4" data-bs-toggle="modal" data-bs-target="#portfolio1">See project</button>
                 </div>
               </div>
             </div>
