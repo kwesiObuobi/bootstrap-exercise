@@ -18,9 +18,21 @@ body {
     background-color: #ebf0ee;
 }
 
+/*
+RECENT WORKS
+*/
+
+.recent-works-h3 {
+    font-size: 40px;
+}
+
 @media (min-width: 567px) {
     .headline {
         margin-top: 0;
+    }
+
+    .social {
+        margin-bottom: 100px;
     }
 }
 
